@@ -18,6 +18,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@menaka123'
       - run: yarn
+      - run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.NPM_AUTH_TOKEN }}" > ~/.yarnrc
       - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
