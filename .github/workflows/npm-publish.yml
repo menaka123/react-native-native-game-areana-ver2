@@ -18,5 +18,6 @@ jobs:
           registry: https://npm.pkg.github.com/
 
       - run: yarn
+      - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
