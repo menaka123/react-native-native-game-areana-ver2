@@ -1,5 +1,5 @@
 {
-  "name": "react-native-native-game-areana-ver2",
+  "name": "@menaka123/react-native-native-game-areana-ver2",
   "version": "0.1.0",
   "description": "test",
   "main": "lib/commonjs/index",
@@ -48,7 +48,7 @@
   },
   "homepage": "https://github.com/menaka123/react-native-native-game-areana-ver2#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.com/"
+    "registry": "https://npm.pkg.github.com/@menaka123"
   },
   "devDependencies": {
     "@evilmartians/lefthook": "^1.2.2",
