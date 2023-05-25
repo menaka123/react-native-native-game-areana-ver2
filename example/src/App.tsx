@@ -12,7 +12,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text>Result 2: {result}</Text>
     </View>
   );
 }
