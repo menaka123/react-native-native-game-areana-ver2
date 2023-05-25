@@ -45,4 +45,16 @@ jobs:
         uses: ./.github/actions/setup
 
       - name: Build package
-        run: yarn prepack
+        run: yarn
+
+  publish-gpr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 16
+          registry: https://npm.pkg.github.com/
+
+      - name: Build package
+        run: yarn
