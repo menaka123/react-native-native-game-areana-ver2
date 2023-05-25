@@ -48,7 +48,7 @@
   },
   "homepage": "https://github.com/menaka123/react-native-native-game-areana-ver2#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.pkg.github.com/@menaka123"
   },
   "devDependencies": {
     "@evilmartians/lefthook": "^1.2.2",
